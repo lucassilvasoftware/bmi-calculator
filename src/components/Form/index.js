@@ -32,10 +32,10 @@ export default function Form() {
     <View>
       <View>
         <Text>Height</Text>
-        <TextInput placeholder="Ex. 1.78" keyboardType="numeric" />
+        <TextInput onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
         <Text>Weight</Text>
-        <TextInput placeholder="Ex. 85.3" keyboardType="numeric" />
-        <Button title='Calculate BMI' />
+        <TextInput onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
+        <Button title={TextButton} onPress={() => validationBmi()} />
       </View>
       <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
     </View>
