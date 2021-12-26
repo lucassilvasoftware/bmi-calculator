@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Vibration } from 'react-native';
 import ResultBMI from "./ResultBMI/index"
 import styles from './style';
 
@@ -18,6 +18,7 @@ export default function Form() {
 
   function verificationBmi() {
     if (bmi == null) {
+      Vibration.vibrate();
       setErrorMessage("Required field*")
     }
   }
@@ -36,7 +37,6 @@ export default function Form() {
     setBmi(null)
     setTextButton("Calculate")
     setMessageBMI("Enter your weight and height.")
-
   }
 
   return (
