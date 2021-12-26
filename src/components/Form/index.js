@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 import ResultBMI from "./ResultBMI/index"
 import styles from './style';
 
@@ -33,10 +33,12 @@ export default function Form() {
     <View style={styles.formContext}>
       <View style={styles.form}>
         <Text style={styles.formLabel}>Height</Text>
-        <TextInput onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
+        <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
         <Text style={styles.formLabel}>Weight</Text>
-        <TextInput onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
-        <Button color="#3EB489" title={TextButton} onPress={() => validationBmi()} />
+        <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
+        <TouchableOpacity style={styles.buttonCalc} onPressed={() => validationBmi()}>
+          <Text style={styles.textButtonCalc} >{TextButton}</Text>
+        </TouchableOpacity>
       </View>
       <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
     </View >
