@@ -1,10 +1,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import styles from './style';
 
 export default function Title() {
   return (
-    <View>
-      <Text>BMI/IMC Calculator</Text>
+    <View style={styles.boxTitle}>
+      <Text style={styles.textTitle}>BMI/IMC Calculator</Text>
     </View>
   )
 }

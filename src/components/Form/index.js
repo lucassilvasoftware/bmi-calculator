@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button } from 'react-native';
 import ResultBMI from "./ResultBMI/index"
+import styles from './style';
 
 export default function Form() {
 
@@ -29,7 +30,7 @@ export default function Form() {
   }
 
   return (
-    <View>
+    <View style={styles.formContext}>
       <View>
         <Text>Height</Text>
         <TextInput onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
