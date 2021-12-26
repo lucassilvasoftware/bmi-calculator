@@ -33,9 +33,9 @@ export default function Form() {
     <View style={styles.formContext}>
       <View style={styles.form}>
         <Text style={styles.formLabel}>Height</Text>
-        <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
+        <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.75" keyboardType="numeric" />
         <Text style={styles.formLabel}>Weight</Text>
-        <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
+        <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.0" keyboardType="numeric" />
         <TouchableOpacity style={styles.buttonCalc} onPress={() => validationBmi()}>
           <Text style={styles.textButtonCalc} >{TextButton}</Text>
         </TouchableOpacity>

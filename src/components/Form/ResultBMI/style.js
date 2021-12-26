@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   contextBMI: {
     flex: 1,
     marginTop: 15,
-    paddingTop: 60,
+    paddingTop: 30,
     borderRadius: 50,
     alignItems: "center",
     width: "100%",
