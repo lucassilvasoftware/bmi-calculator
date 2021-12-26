@@ -10,9 +10,16 @@ export default function Form() {
   const [messageBMI, setMessageBMI] = useState("Enter your weight and height.")
   const [bmi, setBmi] = useState(null)
   const [TextButton, setTextButton] = useState("Calculate")
+  const [errorMessage, setErrorMessage] = useState(null)
 
   function bmiCalc() {
     return setBmi((weight / (height * height)).toFixed(2))
+  }
+
+  function verificationBmi() {
+    if (bmi == null) {
+      setErrorMessage("Required field*")
+    }
   }
 
   function validationBmi() {
@@ -27,6 +34,7 @@ export default function Form() {
     setBmi(null)
     setTextButton("Calculate")
     setMessageBMI("Enter your weight and height.")
+    setErrorMessage(null)
   }
 
   return (
