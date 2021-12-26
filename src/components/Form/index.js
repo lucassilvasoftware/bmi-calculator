@@ -31,14 +31,14 @@ export default function Form() {
 
   return (
     <View style={styles.formContext}>
-      <View>
-        <Text>Height</Text>
+      <View style={styles.form}>
+        <Text style={styles.formLabel}>Height</Text>
         <TextInput onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
-        <Text>Weight</Text>
+        <Text style={styles.formLabel}>Weight</Text>
         <TextInput onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
-        <Button title={TextButton} onPress={() => validationBmi()} />
+        <Button color="#3EB489" title={TextButton} onPress={() => validationBmi()} />
       </View>
       <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
-    </View>
+    </View >
   );
 }

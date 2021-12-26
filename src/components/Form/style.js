@@ -8,6 +8,19 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffff",
     alignItems: "center",
     marginTop: 30,
+    borderTopLeftRadius: 50,
+    borderTopRightRadius: 50,
+  },
+  form: {
+    width: "100%",
+    height: "auto",
+    marginTop: 30,
+    padding: 10,
+  },
+  formLabel: {
+    color: "#000",
+    fontSize: 18,
+    paddingLeft: 20,
   },
 });
 
