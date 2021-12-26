@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  resultBMI: {
+  contextBMI: {
     flex: 1,
     marginTop: 15,
     paddingTop: 60,
@@ -9,12 +9,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "100%",
   },
-  bmiNumber: {
+  resultBMI: {
     fontSize: 48,
     color: "#3EB489",
     fontWeight: "bold",
   },
-  info: {
+  titleResultIMC: {
     fontSize: 18,
     color: "#3EB489",
     fontWeight: "bold",

@@ -4,9 +4,9 @@ import styles from './style';
 
 export default function ResultBMI(props) {
   return (
-    <View style={styles.resultBMI}>
-      <Text style={styles.info}>{props.resultBMI}</Text>
-      <Text style={styles.bmiNumber}>{props.messageResultBMI}</Text>
+    <View style={styles.contextBMI}>
+      <Text style={styles.titleResultIMC}>{props.messageResultBMI}</Text>
+      <Text style={styles.resultBMI}>{props.resultBMI}</Text>
     </View>
   );
 }
