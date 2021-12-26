@@ -29,12 +29,14 @@ export default function Form() {
       setWeight(null)
       setMessageBMI("Your BMI is:")
       setTextButton("Calculate again.")
+      setErrorMessage(null)
       return
     }
+    verificationBmi()
     setBmi(null)
     setTextButton("Calculate")
     setMessageBMI("Enter your weight and height.")
-    setErrorMessage(null)
+
   }
 
   return (
