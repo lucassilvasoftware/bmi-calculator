@@ -36,7 +36,7 @@ export default function Form() {
         <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.78" keyboardType="numeric" />
         <Text style={styles.formLabel}>Weight</Text>
         <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.3" keyboardType="numeric" />
-        <TouchableOpacity style={styles.buttonCalc} onPressed={() => validationBmi()}>
+        <TouchableOpacity style={styles.buttonCalc} onPress={() => validationBmi()}>
           <Text style={styles.textButtonCalc} >{TextButton}</Text>
         </TouchableOpacity>
       </View>
