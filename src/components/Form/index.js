@@ -7,7 +7,7 @@ export default function Form() {
 
   const [height, setHeight] = useState(null)
   const [weight, setWeight] = useState(null)
-  const [messageBMI, setMessageBMI] = useState("")
+  const [messageBMI, setMessageBMI] = useState("Enter your weight and height")
   const [bmi, setBmi] = useState(null)
   const [TextButton, setTextButton] = useState("Calculate")
   const [errorMessage, setErrorMessage] = useState(null)
