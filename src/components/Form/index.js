@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, Vibration, Keyboard, Pressable } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Vibration, Keyboard, Pressable, FlatList } from 'react-native';
 import ResultBMI from "./ResultBMI/index"
 import styles from './style';
 
@@ -11,10 +11,13 @@ export default function Form() {
   const [bmi, setBmi] = useState(null)
   const [TextButton, setTextButton] = useState("Calculate")
   const [errorMessage, setErrorMessage] = useState(null)
+  const [bmiList, setBmiList] = useState([])
 
   function bmiCalc() {
-    let heightForm = height.replace(",", ".")
-    return setBmi((weight / (height * height)).toFixed(2))
+    let heightFormat = height.replace(",", ".")
+    let totalBmi = (weight / (heightFormat * heightFormat)).toFixed(2);
+    setBmiList((arr) => [...arr, { id: new Date().getTime(), bmi: totalBmi }])
+    setBmi(totalBmi)
   }
 
   function verificationBmi() {
@@ -25,6 +28,7 @@ export default function Form() {
   }
 
   function validationBmi() {
+    console.log(bmiList)
     if (weight != null && height != null) {
       bmiCalc()
       setHeight(null)
@@ -63,6 +67,22 @@ export default function Form() {
           </TouchableOpacity>
         </View>
       }
+      <FlatList
+        showsVerticalScrollIndicator={false}
+        style={styles.listBmi}
+        data={bmiList.reverse()}
+        renderItem={({ item }) => {
+          return (
+            <Text style={styles.resultBmiItem}>
+              <Text style={styles.textResultItemList}>  BMI Result = </Text>
+              {item.bmi}
+            </Text>
+          )
+        }}
+        keyExtractor={(item) => {
+          item.id
+        }}
+      />
     </View >
   );
 }
