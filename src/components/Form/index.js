@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, Vibration } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Vibration, Keyboard, Pressable } from 'react-native';
 import ResultBMI from "./ResultBMI/index"
 import styles from './style';
 
@@ -7,12 +7,13 @@ export default function Form() {
 
   const [height, setHeight] = useState(null)
   const [weight, setWeight] = useState(null)
-  const [messageBMI, setMessageBMI] = useState("Enter your weight and height.")
+  const [messageBMI, setMessageBMI] = useState("")
   const [bmi, setBmi] = useState(null)
   const [TextButton, setTextButton] = useState("Calculate")
   const [errorMessage, setErrorMessage] = useState(null)
 
   function bmiCalc() {
+    let heightForm = height.replace(",", ".")
     return setBmi((weight / (height * height)).toFixed(2))
   }
 
@@ -29,7 +30,7 @@ export default function Form() {
       setHeight(null)
       setWeight(null)
       setMessageBMI("Your BMI is:")
-      setTextButton("Calculate again.")
+      setTextButton("Calculate gain")
       setErrorMessage(null)
       return
     }
@@ -40,7 +41,7 @@ export default function Form() {
   }
 
   return (
-    <View style={styles.formContext}>
+    <Pressable onPress={Keyboard.dismiss} style={styles.formContext}>
       <View style={styles.form}>
         <Text style={styles.formLabel}>Height</Text>
         <Text style={styles.errorMessage}>{errorMessage}</Text>
@@ -53,6 +54,6 @@ export default function Form() {
         </TouchableOpacity>
       </View>
       <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
-    </View >
+    </Pressable >
   );
 }
