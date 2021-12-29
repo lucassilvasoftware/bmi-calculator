@@ -5,12 +5,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#ffff",
     alignItems: "center",
-    paddingTop: 40,
+    paddingTop: 30,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
   },
   form: {
     width: "100%",
+    height: "auto",
   },
   formLabel: {
     color: "#000",
@@ -38,7 +39,7 @@ const styles = StyleSheet.create({
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: 12,
-    margin: 30,
+    marginTop: 30,
   },
   errorMessage: {
     fontSize: 12,
