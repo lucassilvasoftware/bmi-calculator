@@ -12,16 +12,12 @@ export default function ResultBMI(props) {
   return (
     <View style={styles.contextBMI}>
       <View style={styles.shareButton}>
-        {props.resultBMI != null ?
-          <TouchableOpacity style={styles.shared} onPress={onShare}>
-            <Text style={styles.sharedText}>Share</Text>
-          </TouchableOpacity>
-          :
-          <View />
-        }
+        <Text style={styles.titleResultIMC}>{props.messageResultBMI}</Text>
+        <Text style={styles.resultBMI}>{props.resultBMI}</Text>
+        <TouchableOpacity style={styles.shared} onPress={onShare}>
+          <Text style={styles.sharedText}>Share</Text>
+        </TouchableOpacity>
       </View >
-      <Text style={styles.titleResultIMC}>{props.messageResultBMI}</Text>
-      <Text style={styles.resultBMI}>{props.resultBMI}</Text>
     </View >
   );
 }

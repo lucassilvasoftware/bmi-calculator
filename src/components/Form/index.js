@@ -32,28 +32,37 @@ export default function Form() {
       setMessageBMI("Your BMI is:")
       setTextButton("Calculate gain")
       setErrorMessage(null)
-      return
     }
-    verificationBmi()
-    setBmi(null)
-    setTextButton("Calculate")
-    setMessageBMI("Enter your weight and height")
+    else {
+      verificationBmi()
+      setBmi(null)
+      setTextButton("Calculate")
+      setMessageBMI("Enter your weight and height")
+    }
   }
 
   return (
-    <Pressable onPress={Keyboard.dismiss} style={styles.formContext}>
-      <View style={styles.form}>
-        <Text style={styles.formLabel}>Height</Text>
-        <Text style={styles.errorMessage}>{errorMessage}</Text>
-        <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.75" keyboardType="numeric" />
-        <Text style={styles.formLabel}>Weight</Text>
-        <Text style={styles.errorMessage}>{errorMessage}</Text>
-        <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.0" keyboardType="numeric" />
-        <TouchableOpacity style={styles.buttonCalc} onPress={() => validationBmi()}>
-          <Text style={styles.textButtonCalc} >{TextButton}</Text>
-        </TouchableOpacity>
-      </View>
-      <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
-    </Pressable >
+    <View style={styles.formContext}>
+      {bmi == null ?
+        <Pressable onPress={Keyboard.dismiss} style={styles.form}>
+          <Text style={styles.formLabel}>Height</Text>
+          <Text style={styles.errorMessage}>{errorMessage}</Text>
+          <TextInput style={styles.input} onChangeText={setHeight} value={height} placeholder="Ex. 1.75" keyboardType="numeric" />
+          <Text style={styles.formLabel}>Weight</Text>
+          <Text style={styles.errorMessage}>{errorMessage}</Text>
+          <TextInput style={styles.input} onChangeText={setWeight} value={weight} placeholder="Ex. 85.0" keyboardType="numeric" />
+          <TouchableOpacity style={styles.buttonCalc} onPress={() => validationBmi()}>
+            <Text style={styles.textButtonCalc} >{TextButton}</Text>
+          </TouchableOpacity>
+        </Pressable>
+        :
+        <View style={styles.exebitionResultBMI}>
+          <ResultBMI messageResultBMI={messageBMI} resultBMI={bmi} />
+          <TouchableOpacity style={styles.buttonCalc} onPress={() => validationBmi()}>
+            <Text style={styles.textButtonCalc} >{TextButton}</Text>
+          </TouchableOpacity>
+        </View>
+      }
+    </View >
   );
 }
