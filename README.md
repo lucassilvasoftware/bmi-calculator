@@ -17,3 +17,24 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
 </p>
+
+
+## Technologies Used:
+
+<table>
+  <tr>
+    <td>Technology</td>
+    <td>Expo</td>
+    <td>React Native</td>
+  </tr>
+  <tr>
+    <td>Version</td>
+    <td>5.0.1</td>
+    <td>4.7.0</td>
+  </tr>
+</table>
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
