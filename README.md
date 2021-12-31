@@ -21,9 +21,9 @@
 ## Screenshots
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/54152996/147794668-f39d161a-301d-4db2-8ab9-32071e2f18e2.jpeg" alt="demo" height="425">
-  <img src="https://user-images.githubusercontent.com/54152996/147795632-a62f9fc8-13a1-441a-afeb-d07588fe98f2.jpeg" alt="demo" height="425">
-  <img src="https://user-images.githubusercontent.com/54152996/147795627-09158548-8281-4439-9c1c-a8f38996fe64.jpeg" alt="demo" height="425">
+  <img src="https://user-images.githubusercontent.com/54152996/147794668-f39d161a-301d-4db2-8ab9-32071e2f18e2.jpeg" alt="demo" widht="270" height="540">
+  <img src="https://user-images.githubusercontent.com/54152996/147795632-a62f9fc8-13a1-441a-afeb-d07588fe98f2.jpeg" alt="demo" widht="270" height="540">
+  <img src="https://user-images.githubusercontent.com/54152996/147795627-09158548-8281-4439-9c1c-a8f38996fe64.jpeg" alt="demo" widht="270" height="540">
 </div>
 
 ## Technologies Used:
