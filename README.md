@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://user-images.githubusercontent.com/54152996/147795788-ff007b96-c0b4-4150-88be-fc165cad83eb.png" alt="Sales Goal" width="200">
+  <img src="https://user-images.githubusercontent.com/54152996/147795910-35878295-4d73-4d9f-b64b-1d29dbdbeecc.png" alt="BMI Calculator" width="200">
 <br>
 <br>
   BMI Calculator
