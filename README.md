@@ -25,13 +25,33 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/).
     <td>Technology</td>
     <td>Expo</td>
     <td>React Native</td>
+    <td>Node.js</td>
   </tr>
   <tr>
     <td>Version</td>
     <td>5.0.1</td>
     <td>4.7.0</td>
+    <td>16.13.1</td>
   </tr>
 </table>
+
+## Getting Started
+
+### Prerequisites
+
+To run this project in the development mode, you'll need to have a basic environment to run a React-Native App, that can be found [here](https://facebook.github.io/react-native/docs/getting-started).
+
+Also, you'll need to the server running locally on your machine with the mock data. You can find the server and all the instructions to start the server [here](https://github.com/steniowagner/mindcast-server).
+
+### Installing
+
+**Cloning the Repository**
+
+```
+$ git clone https://github.com/steniowagner/mindCast
+
+$ cd mindCast
+```
 
 ## Contributing
 
