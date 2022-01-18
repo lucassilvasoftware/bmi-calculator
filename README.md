@@ -39,9 +39,7 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/).
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment to run a React-Native App, that can be found [here](https://facebook.github.io/react-native/docs/getting-started).
-
-Also, you'll need to the server running locally on your machine with the mock data. You can find the server and all the instructions to start the server [here](https://github.com/steniowagner/mindcast-server).
+To run this project in the development mode, you'll need to have a basic environment to run a React-Native Expo App, that can be found [here](https://docs.expo.dev/).
 
 ### Installing
 
