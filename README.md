@@ -1,30 +1,14 @@
-<h1 align="center">
-<br>
-  <img src="https://user-images.githubusercontent.com/54152996/147796407-d33625be-f6a6-4ccc-83be-81ad16486ac1.jpg" alt="BMI Calculator" width="250">
-<br>
-<br>
-  BMI Calculator
-</h1>
-
-> Status: Finished ✅
-
-<p>Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight. </p>
-
-<br>
-
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
-</p>
-
-## Screenshots
+# BMI Calculator
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/54152996/147794668-f39d161a-301d-4db2-8ab9-32071e2f18e2.jpeg" alt="demo" widht="270" height="540">
-  <img src="https://user-images.githubusercontent.com/54152996/147795632-a62f9fc8-13a1-441a-afeb-d07588fe98f2.jpeg" alt="demo" widht="270" height="540">
-  <img src="https://user-images.githubusercontent.com/54152996/147795627-09158548-8281-4439-9c1c-a8f38996fe64.jpeg" alt="demo" widht="270" height="540">
+  <img src="https://user-images.githubusercontent.com/54152996/150012970-6f64773c-21cc-48cb-a0af-19bd7801cd1a.png" alt="demo" widht="270" height="540">
 </div>
+
+If you want to take a look on all screens of the App, they are [here](https://drive.google.com/drive/folders/1rXFlogxaT5E0pthrrLhF1D_wOVbSHwhD).
+
+## About this Project
+
+<p>Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight. </p>
 
 ## Technologies Used:
 
