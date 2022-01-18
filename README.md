@@ -22,16 +22,16 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/).
 
 <table>
   <tr>
-    <td>Technology</td>
-    <td>Expo</td>
-    <td>React Native</td>
-    <td>Node.js</td>
+    <td align="center">Technology</td>
+    <td align="center">Expo</td>
+    <td align="center">React Native</td>
+    <td align="center">Node.js</td>
   </tr>
   <tr>
-    <td>Version</td>
-    <td>5.0.1</td>
-    <td>4.7.0</td>
-    <td>16.13.1</td>
+    <td align="center">Version</td>
+    <td align="center">5.0.1</td>
+    <td align="center">4.7.0</td>
+    <td align="center">16.13.1</td>
   </tr>
 </table>
 
