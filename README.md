@@ -46,9 +46,7 @@ To run this project in the development mode, you'll need to have a basic environ
 **Cloning the Repository**
 
 ```
-$ git clone https://github.com/steniowagner/mindCast
-
-$ cd mindCast
+$ git clone https://github.com/lucassilvasoftware/bmi-calculator.git
 ```
 
 ## Contributing
