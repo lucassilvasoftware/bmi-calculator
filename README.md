@@ -71,8 +71,6 @@ With all dependencies installed and the environment properly configured, you can
 $ npm start
 ```
 
-With your physical device configured you can read the qr code and run the application.
-
 ## Contributing
 
 You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
