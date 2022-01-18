@@ -37,9 +37,9 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/).
 
 You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
 
-Email-me: stenio.wagner1@gmail.com
+Email-me: 54152996+lucassilvasoftware@users.noreply.github.com
 
-Connect with me at [LinkedIn](https://www.linkedin.com/in/steniowagner/)
+Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/)
 
 Thank you!
 
