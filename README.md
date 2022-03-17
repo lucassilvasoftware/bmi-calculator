@@ -1,4 +1,20 @@
-# BMI Calculator
+<h6 align="center">
+    <img src=""/>
+</h6>
+
+<h2 align="center">
+    BMI Calculator
+</h2>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
+
+<br/>
+
+# BMI Calculator 📝
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/54152996/150012970-6f64773c-21cc-48cb-a0af-19bd7801cd1a.png" alt="demo" widht="270" height="540">
