@@ -1,10 +1,12 @@
 <h6 align="center">
-    <img src=""/>
+    <img src="https://user-images.githubusercontent.com/54152996/161457273-468a0a4b-f597-4725-81df-7472002588e0.png" alt="icon" widht="180" height="180"/>
 </h6>
 
 <h2 align="center">
     BMI Calculator
 </h2>
+
+
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -12,15 +14,12 @@
   </a>
 </p>
 
-<br/>
 
 # BMI Calculator 📝
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/54152996/150012970-6f64773c-21cc-48cb-a0af-19bd7801cd1a.png" alt="demo" widht="270" height="540">
 </div>
-
-If you want to take a look on screens of the App, they are [here](https://drive.google.com/drive/u/0/folders/1zO63ugv2Yh874P03pYFX9wnju426B_m3).
 
 ## About this Project
 
