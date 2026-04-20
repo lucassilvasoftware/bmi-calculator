@@ -12,3 +12,16 @@ web-build/
 
 # macOS
 .DS_Store
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+*.tsbuildinfo
