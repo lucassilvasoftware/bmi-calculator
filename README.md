@@ -69,9 +69,7 @@ $ npm start
 
 You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
 
-Email-me: 54152996+lucassilvasoftware@users.noreply.github.com
-
-Connect with me at [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/)
+Open an issue on this repository or connect on [LinkedIn](https://www.linkedin.com/in/lucassilvasoftware/)
 
 Thank you!
 
